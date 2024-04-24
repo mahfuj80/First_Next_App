@@ -1,7 +1,12 @@
-import React from "react";
+import Counter from "@/components/Counter/Counter";
 
 const HomePage = () => {
-  return <div>This is Next app</div>;
+  return (
+    <div>
+      <h1>This is the Home Page</h1>
+      <Counter />
+    </div>
+  );
 };
 
 export default HomePage;
